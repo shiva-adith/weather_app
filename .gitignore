@@ -1,0 +1,12 @@
+# Ignoring the helper scripts
+convertjpg.py
+get_icon.py
+
+# Ignore images
+*.jpg
+*.png
+*.ico
+
+# Ignore pycache
+__pycache__
+
