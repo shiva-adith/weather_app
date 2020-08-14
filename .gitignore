@@ -10,3 +10,5 @@ get_icon.py
 # Ignore pycache
 __pycache__
 
+# Ignore txt files
+key.txt

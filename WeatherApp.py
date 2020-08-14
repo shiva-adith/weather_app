@@ -8,12 +8,8 @@ WIDTH = 600
 
 root = tk.Tk()
 
-# 6ee6fe36a7673be34c676f367f584873
-
-# api.openweathermap.org/data/2.5/forecast?q={city name},{state code},{country code}&appid={your api key}
-
 def get_weather(city):
-    weather_key = '6ee6fe36a7673be34c676f367f584873'
+    weather_key = '6ee6fe36a7673be34c'
     # connecting to the API using the url and params below
     url = 'https://api.openweathermap.org/data/2.5/weather'
     params = {'APPID': weather_key, 'q': city, 'units': 'Metric'}
